@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/stylesheets/w3.css">
+<link rel="stylesheet" href="assets/stylesheets/dropdown.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="w3-container w3-black" style="color:white;">
+<h4> <p> Carter Angelo Gallery <img src="assets/img/logo.png" style="margin-top:-30px;float:right;"><p> </h4>
+     </div>
+<div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="contactus.html">Contact Us</a>
+	<a href="aboutus.html">About Us</a>
+	<a href="stafflogin.html">Staff login</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Artists
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+	  <a href="angelo.html">Angelo</a>
+      <a href="mark.html">Mark</a>
+      <a href="louise.html">Louise</a>
+      <a href="sharon.html">Sharon</a>
+    </div>
+  </div> 
+</div>
+
+<div class="w3-row-padding">
+
+<div class="w3-half">
+  <h3>Video</h3>
+  <p>This video is a timelapse of a watercolour painting from one of our featured artist, Sharon Freeman.</p>
+  <p> This video is to show to process of how a painitng is created, and the techniques that Sharon uses as well as some of the other artists may use as well. </p>
+  <p> This painting was done in Sharons home town of Oxford, the painting took around a day to start and complete, Sharon is known for her persistents of completing a painting once started and rarley leaves a painting incomplete which is admired by the other artists featured within the gallery. </P>
+  
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/y0xhXu6DP9Q" display -left frameborder="0" allowfullscreen></iframe>
+ 
+</div>
+
+<div class="w3-half">
+  <h2>Map</h2>
+  <p>This is an interactive map for the location of our gallery. </p>
+ <p> For easy usage click on the directions link and find your way to the gallery to see our unique artwork! </p>
+  <p> St. Georges Ave, </p>
+  <p> Northampton </p>
+  <p> NN2 6JD </p>
+  <P> Tel: 01604 745771<p> 
+  <p>Call us to plan your vist or meet with the artists!</p>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.5911890986035!2d-0.8910932840724035!3d52.250808763896075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48770ec793a1dea1%3A0x4fb4ea8f291d220a!2sArt+Class!5e0!3m2!1sen!2suk!4v1509976321370" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+ 
+</div>
+
+<div class="w3-container">
+  <h2>About The Gallery</h2>
+   <p> Gallery Hours:Tuesday - Saturday 11am - 6pm </p>
+  <p>The Angelo Art Gallerys collection of paintings spans more than 60 years and styles range from classic to modern. We also hold an exhibition of an up and coming local artist each and every month. Thanks to the budding young talent in our local area these events are always popular. No ticket required just arrive on the day.
+The building that houses the gallery opened its doors to the public in 1996 for the Northamptonshire Fine Art Exhibition inspired by the Great Exhibition in London of 1851. In 1996 it became the Angelo Art Gallery.
+The Angelo Art Gallery holds the largest collection of work by local talent, showing many of these paintings and sketches alongside loans from other larger galleries.
+</p>
+
+
+<p> Parking Information:
+Street parking is avalible as well as a vistor car park around the back. </p>
+
+<p> <img src="assets/img/inside.jpg"> </p>
+
+<h2> Upcoming Exhibitions </h2>
+<p> Thursday December 7, 2017 6-8 PM </p>
+<p> Experience the lively, enthusiastic atmosphere of an opening night at Cater Angelo Gallery when 
+artists, collectors, art lovers, media professionals, and diverse members of the art world gather to
+ admire and appreciate the works on display. </p>
+ 
+ <p>20 October 2017 until 15 April 2018 <p>
+ <p> Exhibiton of Mark Simons work, an amazing modern yet traditonal style of landscape paintings. Featured in the frount of
+ the Gallery, with Mark himself answering any questions you may have! <p>
+ 
+ <p> For Northampton Borough Council Upcoming Events and Exhibition Page 
+ <a href="https://www.northampton.gov.uk/museumexhibitions">Click here!</a> </p>
+ 
+ <h2> Previous Exhibitions </h2>
+ <p> October 20th 2017 </p>
+ <p> With so much wonderful fine art to show, no exhibition can last forever.
+ Our previous exhibition may be over, but you can still vist our next one or find the piece you fell in love with
+ and buy online! </p>
+<p> 
+<img src="assets/img/gallery5.jpg"> 
+</p>
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+</body>
+</html>

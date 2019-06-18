@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/stylesheets/w3.css">
+<link rel="stylesheet" href="assets/stylesheets/dropdown.css">
+<link rel="stylesheet" href="assets/stylesheets/gallery.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<div class="w3-container w3-black" style="color:white;">
+<h4> <p style=" font-size:60px;"> Carter Angelo Gallery <img src="assets/img/logo.png" style="margin-top:-30px;float:right;"><p> </h4>
+     
+</div>
+	 
+<div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="contactus.html">Contact Us</a>
+	<a href="aboutus.html">About Us</a>
+	<a href="stafflogin.html">Staff login</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Artists
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+	  <a href="angelo.html">Angelo</a>
+      <a href="mark.html">Mark</a>
+      <a href="louise.html">Louise</a>
+      <a href="sharon.html">Sharon</a>
+    </div>
+  </div> 
+</div>
+
+
+<div class="w3-row-padding">
+</div> 
+<div class="w3-half">
+  <h3 class="artist_title"> Artist </h3>
+  <p> </p>
+  <img class="artist" src="assets/img/angelo.jpg">
+  <div class="artist_text">
+  <p class="artist_name">Carter Angelo</p> 
+  <p>
+  
+ Cater studied at Camberwell College of Arts and graduated in 2015.
+ Angelos work explores the banality of everyday objects and how 
+ they can take on a richness that transcends their sense of pathos. 
+ Working across mediums, Cater works with film, installation, photograph,
+ painting, sculpture; cement and starch.His stallations are dishevelled 
+ scenes aiming to bring a sense of familiarity and close in on those fleeting 
+ moments in our lives as Art. The work is conveyed in a personal visual language,
+ evolving through an oddly methodical yet experimental approach. The work seeks
+ to reveal the emotional undercurrents of the everyday: how it feels to be human,
+ to feel love and to feel pain.
+""From a young age i have always loved art and one day hopped for a gallery of my own. Now i can happlily say that i have accomplished my 
+dream and am living it. My gallery features artists that i feel compliment te gallery and i want the gallery to compliment their work as well."
+
+  </p>
+  </div>
+ 
+ </div>
+<div class="w3-half">
+  <h2 class="artist_title">Carter's Artwork</h2>
+ <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/15.jpg">
+      <img src="assets/img/15.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Autumn Night"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product5'>
+<input type='submit' value='Add to basket'>
+</form>
+
+     
+</div>
+</div>
+</div>
+
+ <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/2.jpg">
+      <img src="assets/img/2.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Water Woman"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product16'>
+<input type='submit' value='Add to basket'>
+</form>
+
+</div>
+</div>
+</div>
+ <div class="responsive" style="float:left; clear:both; margin-top:10px;">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/10.jpg">
+      <img src="assets/img/10.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Forest Night"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product8'>
+<input type='submit' value='Add to basket'>
+</form>
+</div>
+</div>
+</div>
+ <div class="responsive" style="float:left; margin-top:10px;">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/13.jpg">
+      <img src="assets/img/13.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Garden Of Eden"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product3'>
+<input type='submit' value='Add to basket'>
+</form>
+</div>
+</div>
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+</body>
+</html>

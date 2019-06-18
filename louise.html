@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/stylesheets/w3.css">
+<link rel="stylesheet" href="assets/stylesheets/dropdown.css">
+<link rel="stylesheet" href="assets/stylesheets/gallery.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<div class="w3-container w3-black" style="color:white;">
+<h4> <p> Carter Angelo Gallery <img src="assets/img/logo.png" style="margin-top:-30px;float:right;"><p> </h4>
+     
+</div>
+	 
+ <div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="contactus.html">Contact Us</a>
+	<a href="aboutus.html">About Us</a>
+	<a href="stafflogin.html">Staff login</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Artists
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+	  <a href="angelo.html">Angelo</a>
+      <a href="mark.html">Mark</a>
+      <a href="louise.html">Louise</a>
+      <a href="sharon.html">Sharon</a>
+    </div>
+  </div> 
+</div>
+
+
+<div class="w3-row-padding">
+</div> 
+<div class="w3-half">
+  <h3 class="artist_title"> Artist </h3>
+  <p> </p>
+  <img class="artist" src="assets/img/louise.jpg">
+  <div class="artist_text">
+  <p class="artist_name">Louise Robinson</p> 
+  <p>Currently based in Northampton, artist/curator Louise Robinson
+  graduated from Central St Martins in 1997 and gained her MA from 
+  the Royal College Of Art in 1999. Assistant to the late Helen Chadwick and a fellow of the RCA, Louises own art practice developed 
+  broadly, embracing a range of media (print, photography, drawing, 
+  recycled and scavenged materials) to produce a variety of installation
+  based outcomes (2D and 3D, multiples, architectural scale interventions, 
+  etc). She maintains an international profile with projects in Slovakia, Russia, Ecuador and Libya. </p>
+  
+  <p> BUYERS GUIDE </p>
+  
+  <P> Modern Interior = Contemporary Art
+If your interior features crisp straight lines, simple solid colours and plenty of space you should look
+ for contemporary pieces, which demonstrate similar attributes. Strong geometric shapes and bold colours 
+ are ideal if you are going for an attention-grabbing piece, or if you are looking for something less 
+ striking why not try something that has simple line work in one or two neutral colours housed in a solid
+ frame of a similar tone. </P>
+
+  </div>
+ 
+ 
+  </div>
+<div class="w3-half">
+  <h2 class="artist_title">Louise's Artwork</h2>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/1.jpg">
+      <img src="assets/img/1.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"The 3 Kayan's"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product9'>
+<input type='submit' value='Add to basket'>
+</form>
+</div>
+</div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/3.jpg">
+      <img src="assets/img/3.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Rainbow Retriever"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product11'>
+<input type='submit' value='Add to basket'>
+</form>
+
+</div>
+</div>
+</div>
+<br>
+<div class="responsive" style="float:left; clear:both; margin-top:10px;">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/4.jpg">
+      <img src="assets/img/4.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Black Bear"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product13'>
+<input type='submit' value='Add to basket'>
+</form>
+</div>
+</div>
+</div>
+<br>
+<div class="responsive" style="margin-top:10px;">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/16.jpg">
+      <img src="assets/img/16.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Cross Of Seasons"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product2'>
+<input type='submit' value='Add to basket'>
+</form>
+
+</div>
+</div>
+</div>
+ 
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+</body>
+</html>

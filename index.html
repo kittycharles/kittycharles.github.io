@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/stylesheets/w3.css">
+<link rel="stylesheet" href="assets/stylesheets/dropdown.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<div class="w3-container w3-black" style="color:white;">
+<h4> <p> Carter Angelo Gallery <img src="assets/img/logo.png" style="margin-top:-30px;float:right;"><p> </h4>
+     
+</div>
+
+ <div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="contactus.html">Contact Us</a>
+	<a href="aboutus.html">About Us</a>
+	<a href="stafflogin.html">Staff login</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Artists
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+	  <a href="angelo.html">Angelo</a>
+      <a href="mark.html">Mark</a>
+      <a href="louise.html">Louise</a>
+      <a href="sharon.html">Sharon</a>
+    </div>
+  </div> 
+</div>
+<div class="w3-row-padding">
+
+<div class="w3-container">
+  <h3></h3>
+  <p></p>
+  <p></p>
+  
+</div>
+
+
+
+
+</div>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+
+<h2></h2>
+<p></p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade"><center>
+  <div class="numbertext">1 / 6</div>
+  <img class="slideshow" src="assets/img/slideshow1.jpg" width="800px" height="800px" align="center">
+  
+  <div class="w3-display-centerbottom w3-container w3-padding-16 w3-black" style="width:800px;">
+    Carter Angelo Gallery
+  </div></center>
+
+</div>
+
+<div class="mySlides fade"><center>
+  <div class="numbertext">2 / 6</div>
+  <img class="slideshow" src="assets/img/slideshow2.jpg" width="800px" height="800px" align="center">
+ 
+  <div class="w3-display-centerbottom w3-container w3-padding-16 w3-black" style="width:800px;">
+    Carter Angelo Gallery
+  </div></center>
+ 
+</div>
+
+<div class="mySlides fade"><center>
+  <div class="numbertext">3 / 6</div>
+  <img class="slideshow" src="assets/img/slideshow3.png" width="800px" height="800px" align="center">
+  
+   <div class="w3-display-centerbottom w3-container w3-padding-16 w3-black" style="width:800px;">
+    Carter Angelo Gallery
+  </div></center>
+  
+</div>
+
+<div class="mySlides fade"><center>
+  <div class="numbertext">4 / 6</div>
+  <img class="slideshow" src="assets/img/slideshow4.jpg" width="800px" height="800px" align="center">
+  
+   <div class="w3-display-centerbottom w3-container w3-padding-16 w3-black"style="width:800px;">
+    Carter Angelo Gallery
+  </div></center>
+ 
+</div>
+
+<div class="mySlides fade"><center>
+  <div class="numbertext">5 / 6</div>
+  <img class="slideshow" src="assets/img/slideshow5.jpg" width="800px" height="800px" align="center">
+  
+   <div class="w3-display-centerbottom w3-container w3-padding-16 w3-black"style="width:800px;">
+    Carter Angelo Gallery
+  </div></center>
+
+</div>
+
+<div class="mySlides fade">
+    <center><div class="numbertext">6 / 6</div>
+  <img class="slideshow" src="assets/img/slideshow6.jpg" width="800px" height="800px" align="center">
+  
+   <div class="w3-display-centerbottom w3-container w3-padding-16 w3-black"style="width:800px;">
+    Carter Angelo Gallery
+  </div></center>
+  
+
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 3
+   seconds
+}
+
+
+</script>
+<div class="images">
+<p> 
+<img src="assets/img/gallery1.jpg" width="100%"> 
+<div class="w3-display-centerbottom w3-container w3-padding-16 w3-black">
+    Carter Angelo Gallery
+	<p> The evening was a great success and many
+	turned out to support the artists. With gorgeous
+	work to admire, wine and snacks, the evening was 
+	thoroughly enjoyable and thank you to everyone who
+	came along to make what was another fantastic exhibition lauch. <p>
+  </div>
+<img src="assets/img/gallery2.jpg" width="100%" >  
+<div class="w3-display-centerbottom w3-container w3-padding-16 w3-black">
+    Carter Angelo Gallery
+	<p> The exhibition featured the work of 4 artists from across the world. <p>
+  </div>
+<img src="assets/img/gallery3.jpg"width="100%" > 
+<div class="w3-display-centerbottom w3-container w3-padding-16 w3-black">
+    Carter Angelo Gallery
+	<p> Many people turned up at the gallery to enjoy the work of artists; Mark Simons, Louise Robinson, Sharon Fleet and myself Carter Angelo. <p>
+  </div>
+<img src="assets/img/gallery4.jpg"width="100%">
+</div> 
+<div class="w3-display-centerbottom w3-container w3-padding-16 w3-black">
+    Carter Angelo Gallery
+<p>	Here at the Gallery along with the agreeemt of all artists we have a 'free to take photo policy'.
+	</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/stylesheets/artists.css">
+<link rel="stylesheet" href="assets/stylesheets/w3.css">
+<link rel="stylesheet" href="assets/stylesheets/dropdown.css">
+<link rel="stylesheet" href="assets/stylesheets/gallery.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<div class="w3-container w3-black" style="color:white;">
+<h4> <p> Carter Angelo Gallery <img src="assets/img/logo.png" style="margin-top:-30px;float:right;"><p> </h4>
+     
+</div>
+	 
+<div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="contactus.html">Contact Us</a>
+	<a href="aboutus.html">About Us</a>
+	<a href="stafflogin.html">Staff login</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Artists
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+	  <a href="angelo.html">Angelo</a>
+      <a href="mark.html">Mark</a>
+      <a href="louise.html">Louise</a>
+      <a href="sharon.html">Sharon</a>
+    </div>
+  </div> 
+</div>
+
+
+<div class="w3-row-padding">
+</div> 
+<div class="w3-half">
+  <h3 class="artist_title"> Artist </h3>
+  <p> </p>
+  <img class="artist" src="assets/img/mark.jpg">
+  <div class="artist_text">
+  <p class="artist_name">Mark Simons</p> 
+  <p>
+  Mark Simons was born in National City, California in 1931. He attended San Diego State 
+  University and did post-graduate work at Otis Art Institute, Chouinard Art
+  Institute and the University of California at Berkeley. He taught at the 
+  California Institute of the Arts in Valencia, CA from 1970 - 1988 and the 
+  University of California at Los Angeles from 1996 - 2007.
+  </p>
+  <p> BUYERS GUIDE </p>
+  <p>  Traditional Style = Landscapes & Oil Paintings
+If your home sports more of a comfortable, classic feel - think
+ Chesterfield sofas and warm open log fires - then traditional landscapes
+ or oil paintings of earthy objects will be best suited to your interior. 
+ The warm rich tones of the oil paints will lend themselves well to the 
+ ambiance of your home whilst landscapes will evoke feelings of joy and happiness,
+ especially if they depict somewhere dear to your heart.
+</p>
+
+
+
+
+
+  </div>
+ 
+ </div>
+<div class="w3-half">
+  <h2 class="artist_title">Mark's Artwork</h2>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/11.jpg">
+      <img src="assets/img/11.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Water Night"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product1'>
+<input type='submit' value='Add to basket'>
+</form>
+</div>
+</div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/14.jpg">
+      <img src="assets/img/14.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Black Swan"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product4'>
+<input type='submit' value='Add to basket'>
+</form>
+</div>
+</div>
+</div>
+<div class="responsive" style="float:left; clear:both; margin-top:10px;">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/12.jpg">
+      <img src="assets/img/12.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Blossom Bridge"</div>
+	<div class="form">
+    <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product6'>
+<input type='submit' value='Add to basket'>
+</form>
+</div>
+</div>
+</div>
+<div class="responsive" style="margin-top:10px;">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/9.jpg">
+      <img src="assets/img/9.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"River Path"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product7'>
+<input type='submit' value='Add to basket'>
+</form>
+</div>
+</div>
+</div>
+ 
+  
+  
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+</body>
+</html>

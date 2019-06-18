@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/stylesheets/artists.css">
+<link rel="stylesheet" href="assets/stylesheets/w3.css">
+<link rel="stylesheet" href="assets/stylesheets/dropdown.css">
+<link rel="stylesheet" href="assets/stylesheets/gallery.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body style="
+    background-image: url('https://s-media-cache-ak0.pinimg.com/originals/95/32/54/9532549….gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left center;">
+
+<div class="w3-container w3-black" style="color:white;">
+<h4> <p> Carter Angelo Gallery <img src="assets/img/logo.png" style="margin-top:-30px;float:right;"><p> </h4>
+     
+</div>
+	 
+ <div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="contactus.html">Contact Us</a>
+	<a href="aboutus.html">About Us</a>
+	<a href="stafflogin.html">Staff login</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Artists
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+	  <a href="angelo.html">Angelo</a>
+      <a href="mark.html">Mark</a>
+      <a href="louise.html">Louise</a>
+      <a href="sharon.html">Sharon</a>
+    </div>
+  </div> 
+</div>
+
+
+<div class="w3-row-padding">
+</div> 
+<div class="w3-half">
+  <h3 class="artist_title"> Artist </h3>
+  <p> </p>
+  <img class="artist" src="assets/img/sharon.jpg">
+  <div class="artist_text">
+  <p class="artist_name">Sharon Freeman</p> 
+  <p>
+  Sharon Freeman was born in Oxford in 1956 and lived in South Africa
+  for most of her teenage years before returning to Northampton in
+  1979. She now paints and holds art classes in Oundle and visits
+  France as often as possible. Freemans years in South Africa had a
+  profound effect on her work; the sumptuous colours of the landscapes,
+  the skies and the people of the country are reflected in the opulence
+  and vibrancy of her paintings. As she explains: I find everyday life
+  so crowded with irresistible images and impressions I feel almost overwhelmed,
+  it is far more frustrating not attempting to paint all these images than going
+  through the actual process of making them. Many of her paintings are semi-abstract 
+  celebrations of light, texture and colour.
+  </p>
+  </div>
+ 
+ </div>
+<div class="w3-half">
+  <h2 class="artist_title">Sharon's Artwork</h2>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/5.jpg">
+      <img src="assets/img/5.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Mystic Man"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product14'>
+<input type='submit' value='Add to basket'>
+</form>
+</div>
+</div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/6.jpg">
+      <img src="assets/img/6.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Marilyn"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product15'>
+<input type='submit' value='Add to basket'>
+</form>
+
+</div>
+</div>
+</div>
+<div class="responsive" style="float:left; clear:both; margin-top:10px;">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/7.jpg">
+      <img src="assets/img/7.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"Figure Face"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product12'>
+<input type='submit' value='Add to basket'>
+</form>
+</div>
+</div>
+</div>
+<div class="responsive" style="margin-top:10px;">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/8.jpg">
+      <img src="assets/img/8.jpg" alt="description goes here" width="300" height="200">
+    </a>
+    <div class="desc">"A Vague Touch"</div>
+	<div class="form">
+     <form action='http://www.romancart.com/cart.asp' method='post'>
+<input type='hidden' name='storeid' value='66134'>
+<input type='hidden' name='itemcode' value='Product17'>
+<input type='submit' value='Add to basket'>
+</form>
+
+</div>
+</div>
+</div>
+ 
+  
+  
+</div>
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+</body>
+</html>
